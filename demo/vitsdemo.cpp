@@ -32,8 +32,8 @@ int main(int argc, char** argv) {
     vector<float> infer;
     for (vector<int> inputSlice: readyInput) {
         auto res = VitsForward(
-            inputSlice, 
-            false, // 是否启用 Vulkan
+            inputSlice,
+            true, // 是否启用 Vulkan
             false, // 是否包含多 Speaker
             0,     // Speaker 序号
             .667,  // 噪声比例
