@@ -12,9 +12,9 @@ int main(int argc, char** argv) {
     // wcout << L"Check avaliable thread count: " << CheckThreads() << endl;
 
     // Raw input
-    wstring rawInput; // = L"こんにちは。"; // L"どんなことを言わせても、良いんだよ";
-    wcout << "Please input: " << endl;
-    getline(wcin, rawInput);
+    wstring rawInput = L"どんなことを言わせても、良いんだよ";
+    //wcout << "Please input: " << endl;
+    //getline(wcin, rawInput);
     wcout << "Your rawInput: " << rawInput << endl;
 
     // Clear input

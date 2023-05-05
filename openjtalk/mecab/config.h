@@ -85,6 +85,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Define to 1 if you have the <windows.h> header file. */
+#define HAVE_WINDOWS_H 1
 /* #undef HAVE_WINDOWS_H */
 
 /* Define to 1 if you have the `iconv_open' library(-liconv). */

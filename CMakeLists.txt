@@ -3,12 +3,12 @@ cmake_minimum_required(VERSION 2.6)
 project(vits-ncnn)
 
 set(CMAKE_CXX_STANDARD 17)
-set(ncnn_DIR ${CMAKE_SOURCE_DIR}/ncnn/lib/cmake/ncnn)
-find_package(ncnn REQUIRED)
 
+add_subdirectory(ncnn)
 add_subdirectory(openjtalk)
 add_subdirectory(fftpack)
 add_subdirectory(wave_utils)
+add_subdirectory(demo)
 
 aux_source_directory(vits vits_source)
 include_directories(${CMAKE_SOURCE_DIR}/vits)
