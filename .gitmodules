@@ -1,3 +1,6 @@
 [submodule "vits-ncnn-convert-tool"]
 	path = vits-ncnn-convert-tool
 	url = git@github.com:spianmo/vits-ncnn-convert-tool.git
+[submodule "ncnn"]
+	path = ncnn
+	url = git@github.com:spianmo/ncnn.git
