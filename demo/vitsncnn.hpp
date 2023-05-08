@@ -1,9 +1,15 @@
 #ifndef VITS_NCNN_H
 #define VITS_NCNN_H
 
-#include "stdint.h"
+#include <cstdint>
 #include <iostream>
+
+#ifdef __APPLE__
+#include <fmt/format.h>
+using namespace fmt;
+#elif
 #include <format>
+#endif
 #include <vector>
 
 using namespace std;
